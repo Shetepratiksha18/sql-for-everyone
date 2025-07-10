@@ -1,0 +1,8 @@
+SELECT * FROM Students
+WHERE age > 20;
+
+SELECT*FROM Students
+WHERE age > 20 AND city='nashik';
+
+SELECT name FROM Students
+WHERE age>20 OR city="nashik";
